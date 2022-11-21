@@ -12,3 +12,4 @@ Stack:
 - Moshi
 - Gradle
 - Glide
+- Timber
