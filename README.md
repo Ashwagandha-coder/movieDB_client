@@ -11,3 +11,4 @@ Stack:
 - KotlinX Corotuine
 - Moshi
 - Gradle
+- Glide
