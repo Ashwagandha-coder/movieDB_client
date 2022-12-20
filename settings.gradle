@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 rootProject.name = "movieDB_client"
 include ':app'
 include ':r_v9days'
+include ':r_v27days'
