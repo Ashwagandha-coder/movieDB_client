@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">movieDB_client</string>
+    <string name="_tvMainJson">Stub</string>
 </resources>

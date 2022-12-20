@@ -3,8 +3,11 @@ package com.moviedb_client.ui
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import com.moviedb_client.R
+import com.moviedb_client.databinding.ActivityBaseBinding
 
 class BaseActivity : AppCompatActivity() {
+
+    private lateinit var binding: ActivityBaseBinding
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -14,4 +17,11 @@ class BaseActivity : AppCompatActivity() {
 
 
     }
+
+    private fun subscribeToEventViewModel() {}
+
+
+    private fun configureContent() {}
+
+
 }
