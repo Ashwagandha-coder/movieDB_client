@@ -1,7 +1,7 @@
 package com.moviedb_client.data.model
 
 
-data class Certifications (
+data class CertificationsTV (
     val certifications: Map<String, List<Certification>>
 )
 
