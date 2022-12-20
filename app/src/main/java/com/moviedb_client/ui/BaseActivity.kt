@@ -1,7 +1,8 @@
-package com.moviedb_client
+package com.moviedb_client.ui
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.moviedb_client.R
 
 class BaseActivity : AppCompatActivity() {
 

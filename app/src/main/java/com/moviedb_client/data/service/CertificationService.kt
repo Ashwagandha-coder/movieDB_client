@@ -1,6 +1,7 @@
 package com.moviedb_client.data.service
 
 import com.moviedb_client.data.model.CertificationsTV
+import com.moviedb_client.data.model.CertificationsTVWrapper
 import retrofit2.http.GET
 
 
@@ -11,7 +12,7 @@ interface CertificationService {
     suspend fun getMovieCertification(): CertificationsTV
 
     @GET("/certification/tv/list")
-    suspend fun getTvCertifications():
+    suspend fun getTvCertifications(): CertificationsTVWrapper
 
 
 
