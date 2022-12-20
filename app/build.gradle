@@ -4,6 +4,14 @@ plugins {
 }
 
 android {
+
+    buildFeatures {
+        viewBinding true
+        dataBinding true
+
+    }
+
+
     namespace 'com.moviedb_client'
     compileSdk 32
 
@@ -30,6 +38,9 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+
+
+
 }
 
 dependencies {
