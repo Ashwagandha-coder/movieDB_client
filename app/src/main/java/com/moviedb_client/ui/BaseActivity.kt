@@ -1,6 +1,6 @@
 package com.moviedb_client.ui
 
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.moviedb_client.R
 import com.moviedb_client.databinding.ActivityBaseBinding

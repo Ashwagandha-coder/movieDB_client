@@ -1,4 +1,20 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+
+buildscript {
+    repositories {
+        google()
+    }
+
+    dependencies {
+
+
+        classpath 'androidx.appcompat.app.ActionBarDrawerToggle'
+
+        classpath 'androidx.appcompat:appcompat com.android.support:appcompat-v7'
+
+    }
+}
 plugins {
     id 'com.android.application' version '7.3.1' apply false
     id 'com.android.library' version '7.3.1' apply false
